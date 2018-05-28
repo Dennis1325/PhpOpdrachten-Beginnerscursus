@@ -13,16 +13,23 @@
     <title>Php Opdrachten</title>
 </head>
 <style>
-    body{
-        text-align: center;
-    }
+    /*body{*/
+        /*text-align: center;*/
+    /*}*/
     .rood{
         border: red solid 5px;
     }
     .groen{
         border: green solid 5px;
     }
-
+    table, td{
+        padding: 10px;
+        border: solid black 1px;
+    }
+    .swimPic{
+        padding-right: 5px;
+        padding-left: 5px;
+    }
 
 </style>
 <body>
@@ -70,6 +77,32 @@
 //    $bedrag = 0;
 //}
 //echo $bedrag;
+
+// ZWEMCLUBS
+//$zwemclubs["De spartelkuikens"] = 25;
+//$zwemclubs["De waterbuffels"] = 32;
+//$zwemclubs["Plonsmderin"] = 11;
+//$zwemclubs["Bommetje"] = 23;
+//
+//foreach ($zwemclubs as $zwemclub => $leden){
+//    echo
+//        "<tr>"."<td>$zwemclub</td> "."<td>$leden</td>"."</tr>";
+//    for ($pic = 1; $pic <= $leden/5; $pic++){
+//        echo "<img class='swimPic' src='Img/Zwemplaatje.png'>";
+//    }
+//    echo "<br>";
+//
+//}
+
+// Afspraak kapperzaak
+//print("De volgende momenten zijn nog beschikbaar:<ul>");
+//foreach($kappersagenda as $afspraak => $tijd) {
+//    if($afspraak == "") {
+//        print("<li>".$tijd."</li>") ;
+//    }
+//}
+
+
 
 
 ?>
