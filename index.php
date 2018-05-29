@@ -101,6 +101,59 @@
 //        print("<li>".$tijd."</li>") ;
 //    }
 //}
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+// STANDAARD FUNCTIES
+//$sporten = array("Voetbal", "Korfbal", "Rugby", "Honkbal");
+//shuffle($sporten);
+//echo "Er zijn ".count($sporten)." sporten in de array";
+//foreach($sporten as $sport){
+//    echo "<li>".$sport."</li>";
+//}
+
+// EIGEN FUNCTIE
+//$dieren = array("Leeuw", "Slang", "Olifant", "Hond", "Wolf", "Walvis");
+//geefArrayWeerAlsLijst($dieren);
+//
+//function geefArrayWeerAlsLijst($arr){
+//    foreach($arr as $arr_element){
+//        echo "<li>".$arr_element."</li>";
+//    }
+//}
+
+
+// CELSIUS ALS FAHRENHEIT WEERGEVEN
+//function temp($celsius){
+//    $fahrenheit = $celsius * 1.8 + 32;
+//    return $fahrenheit."°F";
+//}
+//
+//echo temp(28);
+
+//// DEELBAAR DOOR 3
+//function checkDeelbaardoor3($getal){
+//    if ($getal % 3 == 0){
+//        return true;
+//    }
+//    else{
+//        return false;
+//    }
+//}
+//
+//if (checkDeelbaardoor3(9) == true){
+//    echo "dit getal is deelbaar door 3";
+//}
+//else {
+//    echo "dit getal is NIET deelbaar door 3";
+//}
+
+//// DRAAI EEN STRING OM
+//function draaiWoorden($string){
+//    echo strrev($string);
+//}
+//echo draaiWoorden("geinig")
+
 
 
 
